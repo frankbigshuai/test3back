@@ -1,15 +1,10 @@
 package edu.iu.c322.test3.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-
 
 public class Customer {
 
     private String username;
     private String password;
-
     private String email;
 
     public Customer() {
